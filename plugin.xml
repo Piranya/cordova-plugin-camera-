@@ -165,12 +165,12 @@
          <framework src="CoreGraphics.framework" />
          <framework src="AVFoundation.framework" />
 
-         <preference name="CAMERA_USAGE_DESCRIPTION" default=" " />
+         <preference name="CAMERA_USAGE_DESCRIPTION" default="Access to the camera to take profile picture." />
          <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
              <string>$CAMERA_USAGE_DESCRIPTION</string>
          </config-file>
 
-         <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default=" " />
+         <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="Access to photos to set profile picture." />
          <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
              <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
          </config-file>
